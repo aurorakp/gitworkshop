@@ -13,6 +13,7 @@ public class HandShakes {
 		for (int counts= 1; counts<=guests; counts++){
 			totalShakes+= counts;
 			System.out.println("When Guest " + counts + " arrives, Handshakes="+ counts + ", Total Handshakes="+ totalShakes);
+			System.out.println("Hello world");
 		}		
 	}
 
